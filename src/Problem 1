@@ -1,0 +1,18 @@
+###Multiple of 3 or 5 
+Problem 1: If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. 
+The sum of these multiples is 23.
+ Find the sum of all the multiples of 3 or 5 below 1000.
+
+The solution :
+Lets consider separate series 
+Multiple of 3 : 3,6,9,12,15,18,21,24,27,30…….
+Multiple of 5 : 5,10,15,20,25,30,35,40,…….
+Multiple of 15 : 15,30,45,60,90…..(this are the common terms )
+
+ s=n(first term+last term)/2
+
+If we want the sum of multiples of 3 or 5
+S=S3+S5 −S15
+As S15 is counted twice we have to remove it once
+ 
+ 
